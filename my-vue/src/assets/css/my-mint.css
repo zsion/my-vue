@@ -1,0 +1,64 @@
+/* 覆盖mint-ui的primary颜色，改为自己UI的主题色 */
+
+.mint-header {
+  background-color: #00ABD6;
+}
+.mint-button:not(.is-disabled):active::after {
+    opacity: .2 /* .6 */
+}
+.mint-button--primary {
+    background-color: #00ABD6;
+}
+.mint-button--primary.is-plain {
+    border: 1px solid #00ABD6;
+    color: #00ABD6
+}
+.mint-badge.is-primary {
+  background-color: #00ABD6
+}
+.mint-switch-input:checked + .mint-switch-core {
+  border-color: #00ABD6;
+  background-color: #00ABD6;
+}
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 3px solid #00ABD6;
+  color: #00ABD6;
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+  color: #00ABD6;
+}
+.mint-searchbar-cancel {
+  color: #00ABD6;
+}
+.mint-checkbox-input:checked + .mint-checkbox-core {
+  background-color: #00ABD6;
+  border-color: #00ABD6;
+}
+.mint-radio-input:checked + .mint-radio-core {
+  background-color: #00ABD6;
+  border-color: #00ABD6;
+}
+.mt-range-progress {
+  background-color: #00ABD6;
+}
+.mt-progress-progress {
+  background-color: #00ABD6;
+}
+.mint-msgbox-confirm {
+  color: #00ABD6;
+}
+.mint-msgbox-confirm:active {
+  color: #00ABD6;
+}
+.mint-datetime-action {
+  color: #00ABD6;
+}
+
+.icon-home{width:1.75rem;margin-top: .3rem;}
+
+.mint-swipe-indicator{background: grey;opacity: .7;}
+.mint-swipe-indicator.is-active{background: #00ABD6;}
+
+.backHome{position: fixed;right:.3rem;bottom:1.5rem;z-index:9;}
+.backHome a{width:3.75rem;height:3.75rem;display: block;border-radius: 50%;}
+.backHome a img{width:3.75rem;}
